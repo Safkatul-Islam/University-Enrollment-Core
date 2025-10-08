@@ -1,4 +1,4 @@
-package People;
+package people;
 
 public class PeopleDemo {
     public static void main(String[] args) {

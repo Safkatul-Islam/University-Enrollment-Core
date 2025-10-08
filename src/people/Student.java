@@ -1,4 +1,4 @@
-package People;
+package people;
 
 public class Student extends Person {
     private String major;
@@ -14,5 +14,10 @@ public class Student extends Person {
     public void introduce() {
         super.introduce();
         System.out.println(" and I study " + major);
+    }
+
+    @Override
+    public String toString() {
+        return getId() + ": " + getName() + " (Major - " + getMajor() + ")";
     }
 }

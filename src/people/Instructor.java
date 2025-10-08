@@ -1,4 +1,4 @@
-package People;
+package people;
 
 public class Instructor extends Person{
     private String department;

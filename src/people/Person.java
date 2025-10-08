@@ -1,4 +1,4 @@
-package People;
+package people;
 
 public abstract class Person {
     private int id;
