@@ -7,12 +7,10 @@ import grading.GradeBook;
 import people.Instructor;
 import people.Student;
 
-import java.net.http.WebSocket;
 import java.util.List;
 
 public class UniversityApp {
     public static void main(String[] args) {
-        Enrollment enrollment;
 
         Student s1 = new Student(1, "Ryan", "Computer Science");
         Student s2 = new Student(2, "Cathy", "Mathematics");
